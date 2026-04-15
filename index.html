@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thanit Sitthiyakorn - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="hud">
+    <div id="title">THANIT SITTHIYAKORN</div>
+    <div id="subtitle">Life Quest — Portfolio</div>
+    <div id="hint">SCROLL ↓ / ARROW KEYS / SWIPE to walk →</div>
+    <div id="progress"><div id="progress-bar"></div></div>
+  </div>
+
+  <canvas id="game" width="960" height="540"></canvas>
+
+  <div id="dialogue" class="hidden">
+    <div id="dialogue-name"></div>
+    <div id="dialogue-text"></div>
+    <div id="dialogue-hint">▼</div>
+  </div>
+
+  <div id="intro">
+    <div class="intro-box">
+      <div class="intro-title">THANIT'S LIFE QUEST</div>
+      <div class="intro-text">
+        เลื่อนเมาส์ (scroll) หรือกด → เพื่อพาตัวละครเดินไปตามเส้นทางชีวิต<br/>
+        ตั้งแต่เกิดจนถึงปัจจุบัน
+      </div>
+      <button id="start-btn">▶ START</button>
+    </div>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
