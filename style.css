@@ -177,8 +177,16 @@ body {
   font-size: 22px;
   color: #ffd84d;
   letter-spacing: 3px;
-  margin-bottom: 20px;
+  margin-bottom: 6px;
   animation: glow 1.2s infinite alternate;
+}
+
+.intro-sub {
+  font-size: 10px;
+  color: #6fe0ff;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 0 #000;
 }
 
 @keyframes glow {
