@@ -92,6 +92,9 @@ const STATIONS = [
   }
 ];
 
+// ลิงก์ช่องข่าว (Facebook) — แก้ URL ได้ที่นี่
+const NEWS_CHANNEL_URL = 'https://www.facebook.com/share/1GspzqDrPZ/';
+
 const WORLD_WIDTH = 8000;
 const VW = 480;
 const VH = 270;
