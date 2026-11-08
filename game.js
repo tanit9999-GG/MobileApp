@@ -11,6 +11,14 @@
   const introEl = document.getElementById('intro');
   const startBtn = document.getElementById('start-btn');
 
+  // --- News channel links ---
+  document.querySelectorAll('.news-link').forEach(a => {
+    a.href = NEWS_CHANNEL_URL;
+    // Don't let taps/clicks on the link start the game or trigger canvas handlers
+    ['touchstart', 'mousedown', 'click'].forEach(ev =>
+      a.addEventListener(ev, e => e.stopPropagation(), { passive: true }));
+  });
+
   let started = false;
   let camX = 0;
   let charWorldX = 100;
